@@ -317,3 +317,30 @@ export const dataListItem = [
     },
   ];
   
+
+  //projections
+
+  type configItem = {
+    id: string;
+    name: string;
+
+  }
+
+  export const configData: configItem[] = [
+    {
+      id: "c1",
+      name: "Inflow"
+    },
+    {
+      id: "c2",
+      name: "Outflow"
+    },
+    {
+      id: "c3",
+      name: "Revenue"
+    },
+    {
+      id: "c4",
+      name: "Closing"
+    },
+  ]
